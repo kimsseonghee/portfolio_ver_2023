@@ -1,0 +1,90 @@
+/* Projects */
+.bg_p{
+  background: #004DFF;
+  width: 3000px;
+  height: 100vh;
+}
+/* Projects */
+.Projects{
+  background: #004DFF;
+  width: 2500px;
+  height: 600px;
+}
+.Project{
+  margin: 80px;
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  float: left;
+  font-size: 50px;
+}
+.detail{
+  width: 300px;
+  height: 500px;
+  border: 1px solid red;
+}
+.images{
+  position: relative;
+}
+.img_a{
+  position: absolute;
+  left: 110px;
+  top: 220px;
+  width: 500px;
+  height: 550px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_b{
+  position: absolute;
+  left: 350px;
+  top: 550px;
+  width: 350px;
+  height: 300px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_c{
+  position: absolute;
+  left: 650px;
+  top: 250px;
+  width: 800px;
+  height: 250px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_d{
+  position: absolute;
+  left: 1000px;
+  top: 200px;
+  width: 200px;
+  height: 250px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_e{
+  position: absolute;
+  left: 900px;
+  top: 570px;
+  width: 400px;
+  height: 350px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_f{
+  position: absolute;
+  left: 1500px;
+  top: 100px;
+  width: 300px;
+  height: 800px;
+  background: #eee;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_g{
+  position: absolute;
+  left: 1900px;
+  top: 240px;
+  width: 600px;
+  height: 600px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}

@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poiret+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+.bg{
+  background: #004DFF;
+  width: 100vw;
+  height: 100%;
+}
+.bg_img{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  background: url("../images/Abstract-3d-art-background.png") 50% 0 no-repeat;
+  background-size: 2000px;
+}
+
+/* content1 */
+.content1{
+   width: 100%;
+   height: 1200px;
+   border: 1px solid red; 
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poller One', cursive;
+  color: #F366D0;
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+}
+.portfolio{
+  margin: 30px;
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  float: left;
+  font-size: 50px;
+}
+.one{
+  position: relative;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 65%;
+  width: 300px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 250px;
+  text-align: center;
+  line-height: 100px;
+  font-family: 'Poller One', cursive;
+  color: #004DFF;
+}
+.one:hover{
+  opacity: 0.7;
+  background: #F366D0;
+  color: #fff;
+}
+
+.word{
+  position: relative;
+  margin-top: -50px;
+  display: flex;
+}
+.w{
+  width: 600px;
+  height:600px;
+  background: url("../images/portfolio_title-01.png") 0 0 no-repeat;
+
+  transform: rotate(-10deg) translateX(150px);
+}
+.o{
+  width: 600px;
+  height: 600px;
+  background: url("../images/portfolio_title-02.png") 0 0 no-repeat;
+  transform: rotate(0deg) translateX(50px);
+}
+.r{
+  width: 600px;
+  height: 600px;
+  background: url("../images/portfolio_title-03.png") 0 0 no-repeat;
+  transform: rotate(-60deg) translateY(-20px);
+}
+.k{
+  width: 600px;
+  height: 600px;
+  background: url("../images/portfolio_title-04.png") 0 0 no-repeat;
+  transform: rotate(-80deg) translateY(-120px);
+}
+
+/* content2 */
+.content2{
+  width: 100%;
+  height: 900px;
+  border: 1px solid green; 
+}
+.title{
+
+}
+.explanation{
+  text-align: center;
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  font-size:70px;
+}
+.con{
+  width: 90%;
+  height: 200px;
+  background: #fff;
+  margin: 0 auto;
+}
+.about{
+  font-family: 'Poller One', cursive;
+  color: #004DFF;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0 5px 0;
+}
+.me{
+  text-align: center;
+}
+.di_icon{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+  .Illustrator{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/Illustrator.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .InDesign{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/InDesign.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .Photoshop{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/Photoshop.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .Figma{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/Figma.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .Premiere{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/Premiere Pro.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+.sk_icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  .html{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon html.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .js{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon js.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .css{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon css.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .git{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon git.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .scss{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon scss.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+
+/* content3 */
+.content3{
+  position: relative;
+  width: 100%;
+  height: 600px;
+  border: 1px solid yellow; 
+}
+.get{
+  font-family: 'Poiret One', cursive;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+.line{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border:1px solid #fff;
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+}
+.text{
+  margin: 10px 0;
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  font-size:120px;
+  text-align: center;
+}
+.st{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/PINK.png") 50% 50% no-repeat;
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+.st:hover{
+  opacity: 0;
+}
+.menual{
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Projects */
+.Projects{
+  background: #004DFF;
+  width: 2500px;
+  height: 600px;
+}
+.Project{
+  margin: 30px;
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  float: left;
+  font-size: 50px;
+}
+.detail{
+  width: 300px;
+  height: 500px;
+  border: 1px solid red;
+}
+.images{
+  position: relative;
+}
+.img_a{
+  position: absolute;
+  left: 100px;
+  top: 160px;
+  width: 300px;
+  height: 350px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_b{
+  position: absolute;
+  left: 300px;
+  top: 190px;
+  width: 270px;
+  height: 300px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_c{
+  position: absolute;
+  left: 650px;
+  top: 240px;
+  width: 500px;
+  height: 250px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_d{
+  position: absolute;
+  left: 1000px;
+  top: 200px;
+  width: 200px;
+  height: 250px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_e{
+  position: absolute;
+  left: 1300px;
+  top: 240px;
+  width: 300px;
+  height: 300px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_f{
+  position: absolute;
+  left: 1500px;
+  top: 200px;
+  width: 500px;
+  height: 250px;
+  background: #eee;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_g{
+  position: absolute;
+  left: 1900px;
+  top: 240px;
+  width: 350px;
+  height: 350px;
+  background: #ddd;
+  box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+
+/* Projects_detail */
+.Projects_detail{
+  background: #333;
+  width: 100%;
+  height: 600px;
+}
+/* detail */
+.detail{
+  position: relative;
+  display: flex;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 600px;
+  align-items: center;
+}
+.info{
+  width: 400px;
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 38%;
+  height: 400px;
+}
+.name{
+  font-size: 50pt;
+  color: #fff;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+p.React{
+  float: left;
+  margin-right: 15px;
+  text-align: center;
+  font-family: 'Poller One', cursive;
+  width: 200px;
+  border: 1px solid #fff;
+  padding: 6px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.port{
+  position: relative;
+  right: 50px;
+  top: 0;
+
+  background: url("../images/Free.png") 0 0 no-repeat;
+  width: 800px;
+  height: 600px;
+  background-size: 1000px;
+}
+
+/* detail_plus */
+.detail_plus{
+  font-family: 'Roboto Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  width: 100%;
+  height: 600px;
+  border: 1px solid red;
+}
+.info_di{
+  width: 800px;
+}
+.name_di{
+  font-size: 50pt;
+  color: #fff;
+}
+.sk_icon_di{
+  display: flex;
+  flex-direction: row;
+}
+.main{
+  color: #fff;
+}
+strong{
+  font-size: 18px;
+  font-weight: bold;
+}
+em{
+  font-style: normal;
+  color: yellow;
+  font-weight: bold;
+}
+.sub{
+  color: #fff;
+}
+.icon{
+
+}
+.port_di{
+  background: #ddd;
+  height: 80%;
+  width: 400px;
+}

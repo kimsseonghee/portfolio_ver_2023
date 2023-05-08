@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Poiret+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+.bg{
+  background: #004DFF;
+  width: 100%;
+  height: 100%;
+}
+.bg_img{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  background: url("../images/Abstract-3d-art-background.png") 40% 0 no-repeat;
+  background-size: 2000px;
+}
+
+/* content1 */
+.content1{
+   width: 100%;
+   height: 1500px;
+   border: 1px solid #004DFF; 
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poller One', cursive;
+  color: #F366D0;
+  float: right;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px;
+}
+.portfolio{
+  margin: 30px;
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  float: left;
+  font-size: 50px;
+}
+.circle{
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 790px;
+  text-align: center;
+  font-family: 'Poller One', cursive;
+  color: #004DFF;
+  line-height: 790px;
+  font-size: 30px;
+}
+.circle:hover{
+  opacity: 0.7;
+  background: #F366D0;
+  color: #fff;
+}
+
+.word{
+  position: relative;
+  margin-top: -50px;
+  display: flex;
+}
+.w{
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  width: 600px;
+  height:600px;
+  background: url("../images/portfolio_title-01.png") 0 0 no-repeat;
+
+  transform: rotate(-10deg) ;
+}
+.o{
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  width: 600px;
+  height: 600px;
+  background: url("../images/portfolio_title-02.png") 0 0 no-repeat;
+  transform: rotate(0deg);
+}
+.r{
+  position: absolute;
+  left: 1000px;
+  top: 200px;
+  width: 600px;
+  height: 600px;
+  background: url("../images/portfolio_title-03.png") 0 0 no-repeat;
+  transform: rotate(-60deg);
+}
+.k{
+  position: absolute;
+  left: 1500px;
+  top: 200px;
+  width: 600px;
+  height: 600px;
+  background: url("../images/portfolio_title-04.png") 0 0 no-repeat;
+  transform: rotate(-80deg) translateY(-120px);
+}
+
+/* content2 */
+.content2{
+  width: 100%;
+  height: 900px;
+  border: 1px solid green; 
+}
+.title{
+
+}
+.explanation{
+  text-align: center;
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  font-size:70px;
+}
+.con{
+  width: 90%;
+  height: 200px;
+  background: #fff;
+  margin: 0 auto;
+}
+.about{
+  font-family: 'Poller One', cursive;
+  color: #004DFF;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0 5px 0;
+}
+.me{
+  text-align: center;
+  color: #555;
+  >a{
+    color: #555;
+    text-decoration: underline;
+  }
+}
+
+.di_icon{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+  .Illustrator{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/Illustrator.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .InDesign{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/InDesign.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .Photoshop{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/Photoshop.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .Figma{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/Figma.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .Premiere{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/Premiere Pro.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+.sk_icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  .html{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon html.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .js{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon js.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .css{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon css.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .git{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon git.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+  .scss{
+    width: 80px;
+    height: 80px;
+    background: url("../images/logo/icon scss.png") 0 0 no-repeat;
+    background-size: 60px;
+  }
+/* content3 */
+.content3{
+  position: relative;
+  width: 100%;
+  height: 700px;
+  border: 1px solid yellow; 
+}
+.get{
+  font-family: 'Poiret One', cursive;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+}
+.line{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border:1px solid #fff;
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+}
+.text{
+  margin: 10px 0;
+  font-family: 'Poller One', cursive;
+  color: #fff;
+  font-size:120px;
+  text-align: center;
+}
+.st{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/PINK.png") 50% 50% no-repeat;
+  opacity: 1;
+  transition: all 1s ease 0s;
+}
+.st:hover{
+  opacity: 0;
+}
+.menual{
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}

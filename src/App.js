@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Detail from 'route/Detail';
+import Index from 'route/Index';
+import Loading from 'route/Loading';
+import Project from 'route/Project';
+
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Routes>
+
+      {loading ? (
+        <Route path="/" element={<Loading/>}/>
+          ) : (
+            <>
+        <Route path='/' element={<Index/>}/>
+        <Route path='Project' element={<Project/>}/>
+        <Route path='Detail' element={<Detail/>}/>
+            </>
+          )}
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 
