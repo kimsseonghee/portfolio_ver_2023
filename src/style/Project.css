@@ -1,14 +1,14 @@
 /* Projects */
 .bg_p{
   background: #004DFF;
-  width: 3000px;
-  height: 100vh;
+  width: 2800px;
+  height: 110vh;
 }
 /* Projects */
 .Projects{
   background: #004DFF;
-  width: 2500px;
-  height: 600px;
+  width: 2800px;
+  /* height: 200vh; */
 }
 .Project{
   margin: 80px;
@@ -33,6 +33,14 @@
   height: 550px;
   background: #ddd;
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+
+}
+.img_a:hover{
+  animation: ani 1s ease 0s;
+}
+@keyframes ani {
+  0%{transform: translateY(50px);}
+  100%{transform: translateY(0px);}
 }
 .img_b{
   position: absolute;
@@ -43,6 +51,13 @@
   background: #ddd;
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
 }
+.img_b:hover{
+  animation: ani 1s ease 0s;
+}
+@keyframes ani {
+  0%{transform: translateY(50px);}
+  100%{transform: translateY(0px);}
+}
 .img_c{
   position: absolute;
   left: 650px;
@@ -51,6 +66,13 @@
   height: 250px;
   background: #ddd;
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_c:hover{
+  animation: ani 1s ease 0s;
+}
+@keyframes ani {
+  0%{transform: translateY(50px);}
+  100%{transform: translateY(0px);}
 }
 .img_d{
   position: absolute;
@@ -61,6 +83,13 @@
   background: #ddd;
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
 }
+.img_d:hover{
+  animation: ani 1s ease 0s;
+}
+@keyframes ani {
+  0%{transform: translateY(50px);}
+  100%{transform: translateY(0px);}
+}
 .img_e{
   position: absolute;
   left: 900px;
@@ -69,6 +98,13 @@
   height: 350px;
   background: #ddd;
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_e:hover{
+  animation: ani 1s ease 0s;
+}
+@keyframes ani {
+  0%{transform: translateY(50px);}
+  100%{transform: translateY(0px);}
 }
 .img_f{
   position: absolute;
@@ -79,6 +115,13 @@
   background: #eee;
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
 }
+.img_f:hover{
+  animation: ani 1s ease 0s;
+}
+@keyframes ani {
+  0%{transform: translateY(50px);}
+  100%{transform: translateY(0px);}
+}
 .img_g{
   position: absolute;
   left: 1900px;
@@ -87,4 +130,11 @@
   height: 600px;
   background: #ddd;
   box-shadow: 3px 3px 10px rgba(100, 100, 100, 0.4);
+}
+.img_g:hover{
+  animation: ani 1s ease 0s;
+}
+@keyframes ani {
+  0%{transform: translateY(50px);}
+  100%{transform: translateY(0px);}
 }
