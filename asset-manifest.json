@@ -1,19 +1,35 @@
 {
   "files": {
-    "main.css": "/portfolio_ver_2023/static/css/main.b9c6d8c9.css",
-    "main.js": "/portfolio_ver_2023/static/js/main.5024ac8c.js",
+    "main.css": "/portfolio_ver_2023/static/css/main.a98004ed.css",
+    "main.js": "/portfolio_ver_2023/static/js/main.1a207a27.js",
     "static/js/651.6742467e.chunk.js": "/portfolio_ver_2023/static/js/651.6742467e.chunk.js",
-    "static/media/Abstract-3d-art-background.png": "/portfolio_ver_2023/static/media/Abstract-3d-art-background.9273b734993e70973b28.png",
-    "static/media/Free.png": "/portfolio_ver_2023/static/media/Free.fbcd3122232ef1a34202.png",
+    "static/media/HERE_APP_폰_MOCKUP.png": "/portfolio_ver_2023/static/media/HERE_APP_폰_MOCKUP.22122fbec422f4a807c9.png",
+    "static/media/NETFLIX_태블릿_MOCKUP.png": "/portfolio_ver_2023/static/media/NETFLIX_태블릿_MOCKUP.165e6af6d97bf8af9396.png",
+    "static/media/SAMSUNG_태블릿_main_MOCKUP.png": "/portfolio_ver_2023/static/media/SAMSUNG_태블릿_main_MOCKUP.7a1d0edf809955f2e8a9.png",
+    "static/media/SAMSUNG_태블릿_sub2_MOCKUP.png": "/portfolio_ver_2023/static/media/SAMSUNG_태블릿_sub2_MOCKUP.3984e55eac89c64db94a.png",
+    "static/media/CJ_ONE_태블릿_MOCKUP.png": "/portfolio_ver_2023/static/media/CJ_ONE_태블릿_MOCKUP.44d2becc3adf1cb2dc1d.png",
+    "static/media/SAMSUNG_태블릿_sub1_MOCKUP.png": "/portfolio_ver_2023/static/media/SAMSUNG_태블릿_sub1_MOCKUP.bc3a2a7518a51f7883b3.png",
+    "static/media/cjone.jpg": "/portfolio_ver_2023/static/media/cjone.5009b681480fa87fac16.jpg",
+    "static/media/KOSDAQ_태블릿_MOCKUP.png": "/portfolio_ver_2023/static/media/KOSDAQ_태블릿_MOCKUP.2aa5b2d39e2b5ed70c91.png",
+    "static/media/CJ_ONE_폰_MOCKUP.png": "/portfolio_ver_2023/static/media/CJ_ONE_폰_MOCKUP.cb75402dfd90b96d16a5.png",
+    "static/media/netfilx.jpg": "/portfolio_ver_2023/static/media/netfilx.7d50ff438f7c88778446.jpg",
+    "static/media/samsung.jpg": "/portfolio_ver_2023/static/media/samsung.9fee3024a1443a45260f.jpg",
+    "static/media/kosdak.jpg": "/portfolio_ver_2023/static/media/kosdak.915a125b5574f2bc10d4.jpg",
+    "static/media/KOSDAQ_폰_MOCKUP.png": "/portfolio_ver_2023/static/media/KOSDAQ_폰_MOCKUP.72e8d15a9efdd23403ed.png",
+    "static/media/chat.jpg": "/portfolio_ver_2023/static/media/chat.45a20cebfb2b4397de30.jpg",
+    "static/media/emo.jpg": "/portfolio_ver_2023/static/media/emo.9836fb73c025f2c79f53.jpg",
+    "static/media/CHAT_A_APP_폰_MOCKUP.png": "/portfolio_ver_2023/static/media/CHAT_A_APP_폰_MOCKUP.30738e40b30ec0f73b58.png",
+    "static/media/HERE.jpg": "/portfolio_ver_2023/static/media/HERE.d78f7c286d3f6177e84b.jpg",
     "static/media/PINK.png": "/portfolio_ver_2023/static/media/PINK.6f44dff32b14e4776766.png",
-    "static/media/portfolio_title-01.png": "/portfolio_ver_2023/static/media/portfolio_title-01.f621883a4a74c5ef8096.png",
+    "static/media/chatting_app_a.png": "/portfolio_ver_2023/static/media/chatting_app_a.3d41f41838af2a7eb621.png",
+    "static/media/chatting_app_b.png": "/portfolio_ver_2023/static/media/chatting_app_b.7e07f7ec322a003eb68c.png",
     "index.html": "/portfolio_ver_2023/index.html",
-    "main.b9c6d8c9.css.map": "/portfolio_ver_2023/static/css/main.b9c6d8c9.css.map",
-    "main.5024ac8c.js.map": "/portfolio_ver_2023/static/js/main.5024ac8c.js.map",
+    "main.a98004ed.css.map": "/portfolio_ver_2023/static/css/main.a98004ed.css.map",
+    "main.1a207a27.js.map": "/portfolio_ver_2023/static/js/main.1a207a27.js.map",
     "651.6742467e.chunk.js.map": "/portfolio_ver_2023/static/js/651.6742467e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9c6d8c9.css",
-    "static/js/main.5024ac8c.js"
+    "static/css/main.a98004ed.css",
+    "static/js/main.1a207a27.js"
   ]
 }
